@@ -40,9 +40,11 @@ import java.util.Scanner;
 	        }
 	        if(num.charAt(0)=='2') {
 	        	int numR=Integer.parseInt(String.valueOf(num.charAt(2)));
-	        	if(a.contains(numR)) {
+	        	while(a.contains(numR)) {
 	        		a.remove(a.indexOf(numR));
 	        	}
+	        	
+	        	
 	        	
 		     System.out.println(a);
 		         
